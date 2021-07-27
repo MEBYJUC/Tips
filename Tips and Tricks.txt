@@ -1,0 +1,42 @@
+
+---------------
+Git Bash
+-----------------
+
+
+
+1.How to change folder with git bash?
+
+My default git folder is C:\Users\username\.git.
+
+What command should I use to go into C:/project?
+
+
+The command is:
+
+cd  /c/project/
+
+
+Use the pwd command to see which path you are currently in, handy when you did a right-click "Git Bash here..."
+
+
+
+Here are the steps I followed:
+
+1.In bash, check in which directory you are by using the command:
+
+$ pwd
+
+
+2.copy the URL of the directory you want to go like after using the first command (PWD) I got:
+
+$  /c/Users/yourUsername
+
+3. Now I want to change this to the directory of c drive and folder MyPictures. To do that, I will go the directory of MyPictures, copy the URL, and paste it in the Git bash. 
+However, before that:
+
+Windows Directory Path C:\Users\MyUserFolder\
+<—— Becomes......> *nix Directory Path
+/c/Users/MyUserFolder/
+
+  
